@@ -74,4 +74,70 @@
 
     <script src="script.js"></script>
 </body>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f9f9f9;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+}
+// Simple script for form submission
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Gracias por tu mensaje. Te responderemos pronto.');
+});
 </html>
